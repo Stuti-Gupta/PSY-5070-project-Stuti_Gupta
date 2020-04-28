@@ -1,1 +1,1 @@
-# PSY-5070_project-Stuti_Gupta
+# PSY-5070-project-Stuti_Gupta
