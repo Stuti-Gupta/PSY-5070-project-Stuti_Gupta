@@ -329,6 +329,9 @@ def RunTrial(position = (a_pos,0)):
     
     #----------------------intertrial interval of 1250ms with a blank screen-----------------------
     
+    base_circle.draw()
+    center.draw()
+    choice_prompt.draw()
     window.flip()
     core.wait(1.25)
     
