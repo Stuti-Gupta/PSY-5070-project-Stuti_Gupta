@@ -213,7 +213,7 @@ def ShowInstructions():
         If you see "K", you are to look at the other side.\n\
         Your task is to judge what is the nature of number that appears immediately after the letter.\n\
         You have two seconds to press the appropriate key.\n\
-        (press "o" for odd and "e" for even on the keyboard)\n\n\Press any key to start.'
+        (press "o" for odd and "e" for even on the keyboard)\n\nPress any key to start.'
     
     #the above instructions keep showing till the user presses a key on the keyboard
     while not event.getKeys():
