@@ -319,7 +319,7 @@ def RunTask():
     iter = 10               #number of trials per run
     for j in range(runs):       #4 loops
         for i in range(iter):   #10 loops each
-            Sequence()
+            StimulusSequence()
             RunTrial((a_pos,0))
 
 
