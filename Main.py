@@ -120,13 +120,13 @@ def ShowInstructions():
     #creating a visual stimulus to show instructions
     ins = visual.TextStim(window, height = 1, wrapWidth = 35, color = 'black', pos = (0, 0))
     
-    ins.text = 'On each trial, you will first see an asterisk on the screen, either on the left or right of a circle.\n\
+    ins.text = 'On each trial, you will first see an asterisk appear on the screen, either on the left or right of a circle.\n\
     This will be followed by a series of numbers, on both sides of the circle.\n\
     You will have to focus on the numbers on the side of the asterisk.\n\
-    After a few seconds, you will see a letter on the side you have been focusing on.\n\n\
+    After a few seconds, you will see a letter blink on the side you have been focusing on.\n\n\
     If you see "A", you are to keep looking at the same side.\n\
     If you see "K", you are to look at the other side.\n\
-    Your tasks is (1) to judge what is the nature of number that appears immediately after the letter.\n\
+    Your task is to judge what is the nature of number that appears immediately after the letter.\n\
     (press "o" for odd and "e" for even on the keyboard)\n \n \n Press any key to start.'
     
     #the above instructions keep showing till the user presses a key on the keyboard
