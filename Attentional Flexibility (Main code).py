@@ -268,9 +268,14 @@ def RunTrial(position = (a_pos,0)):
     
     #-------------------------------draw the letter for 250msec------------------------------------
     
+    #random number stimulus created for opposite side of the letter
+    randnum = visual.TextStim(window, color = 'black', pos = (-a_pos,0))
+    randnum.text = '5'  #'5' set as random number
+    
     base_circle.draw()
     center.draw()
     letter.draw()
+    randnum.draw()      #random number drawn
     choice_prompt.draw()
     letter_onset = core.getTime() - task_start_time     #defining the point at which letter appears in each trial
     window.flip()
