@@ -1,40 +1,40 @@
-letter: K, 16.0301, right, numbers: even, 1.0864
-letter: A, 26.7796, right, numbers: even, 1.0575
-letter: A, 37.3956, left, numbers: even, 1.0101
-letter: A, 47.9955, left, numbers: even, 0.6334
-letter: A, 58.6115, right, numbers: odd, 0.5063
-letter: K, 69.2278, right, numbers: even, 0.8482
-letter: K, 79.8769, left, numbers: odd, 1.0441
-letter: K, 90.4763, right, numbers: odd, 0.8454
-letter: A, 101.0759, right, numbers: odd, 1.5685
-letter: A, 111.6915, left, numbers: odd, 0.8611
-letter: A, 122.3420, left, numbers: even, 1.1853
-letter: K, 132.9412, left, numbers: odd, 0.5634
-letter: K, 143.5410, left, numbers: even, 1.2036
-letter: K, 154.1411, left, numbers: odd, 1.3486
-letter: A, 164.7404, right, numbers: odd, 0.8896
-letter: A, 175.3400, left, numbers: even, 1.0245
-letter: A, 186.2059, right, numbers: odd, 0.8049
-letter: A, 196.9056, left, numbers: even, 0.9329
-letter: A, 207.5050, right, numbers: none, -1
-letter: K, 218.1046, right, numbers: even, 1.8419
-letter: K, 228.7031, right, numbers: odd, 0.7434
-letter: A, 239.4202, left, numbers: odd, 1.4080
-letter: K, 250.0192, right, numbers: even, 1.0175
-letter: K, 260.6185, left, numbers: odd, 0.8277
-letter: K, 271.2193, left, numbers: even, 0.9567
-letter: A, 281.8179, left, numbers: even, 0.9276
-letter: A, 292.4172, right, numbers: even, 0.6700
-letter: A, 303.0168, right, numbers: odd, 0.7368
-letter: A, 313.6162, right, numbers: even, 0.9333
-letter: A, 324.2160, left, numbers: odd, 0.8947
-letter: K, 334.8154, left, numbers: even, 1.1837
-letter: K, 345.4149, right, numbers: even, 0.9574
-letter: K, 356.1481, right, numbers: even, 0.8968
-letter: A, 366.7473, right, numbers: odd, 0.8446
-letter: A, 377.4804, right, numbers: odd, 1.6335
-letter: A, 388.0798, left, numbers: odd, 0.7565
-letter: A, 398.6963, right, numbers: odd, 0.6808
-letter: K, 409.2960, right, numbers: even, 0.7821
-letter: A, 419.9947, right, numbers: odd, 0.4531
-letter: A, 430.7098, right, numbers: odd, 0.5343
+letter:, K, 9.7938, 1, numbers: Stim:, -1, User:, -1, 0.8530
+letter:, K, 19.3441, -1, numbers: Stim:, 1, User:, 1, 1.0155
+letter:, A, 29.2925, 1, numbers: Stim:, -1, User:, 1, 0.9167
+letter:, A, 38.9943, -1, numbers: Stim:, -1, User:, -1, 1.8906
+letter:, A, 48.6586, -1, numbers: Stim:, 1, User:, 1, 0.7358
+letter:, K, 59.0244, 1, numbers: Stim:, -1, User:, -1, 0.9769
+letter:, A, 68.8754, 1, numbers: Stim:, 1, User:, 1, 0.7661
+letter:, K, 78.7235, 1, numbers: Stim:, -1, User:, -1, 0.6099
+letter:, K, 89.9209, -1, numbers: Stim:, -1, User:, 1, 0.4254
+letter:, A, 99.7538, 1, numbers: Stim:, -1, User:, 1, 0.6949
+letter:, K, 109.6048, -1, numbers: Stim:, -1, User:, 1, 0.5857
+letter:, A, 119.3728, -1, numbers: Stim:, -1, User:, -1, 0.7933
+letter:, K, 129.2040, -1, numbers: Stim:, 1, User:, 1, 0.8050
+letter:, A, 139.1043, 1, numbers: Stim:, 1, User:, 1, 0.6038
+letter:, K, 148.7202, -1, numbers: Stim:, -1, User:, 1, 0.6556
+letter:, A, 158.4695, 1, numbers: Stim:, 1, User:, 1, 1.0274
+letter:, A, 168.1364, 1, numbers: Stim:, -1, User:, -1, 0.7669
+letter:, A, 177.8029, -1, numbers: Stim:, -1, User:, -1, 0.7639
+letter:, K, 187.4519, -1, numbers: Stim:, 1, User:, 1, 1.1589
+letter:, A, 196.9853, -1, numbers: Stim:, 1, User:, 1, 0.9194
+letter:, A, 206.5514, 1, numbers: Stim:, 1, User:, 1, 0.7031
+letter:, A, 216.1676, -1, numbers: Stim:, 1, User:, 1, 0.6371
+letter:, A, 225.7011, -1, numbers: Stim:, -1, User:, -1, 0.4577
+letter:, K, 235.3321, 1, numbers: Stim:, -1, User:, -1, 0.5734
+letter:, A, 244.8665, 1, numbers: Stim:, 1, User:, 1, 0.6780
+letter:, A, 254.3989, -1, numbers: Stim:, -1, User:, 1, 0.4983
+letter:, K, 264.0317, 1, numbers: Stim:, -1, User:, -1, 0.6029
+letter:, K, 273.6638, -1, numbers: Stim:, -1, User:, -1, 0.7967
+letter:, A, 283.1974, -1, numbers: Stim:, -1, User:, -1, 0.4510
+letter:, A, 292.7317, -1, numbers: Stim:, -1, User:, -1, 0.7721
+letter:, K, 302.3803, -1, numbers: Stim:, -1, User:, 1, 0.6213
+letter:, A, 311.9149, 1, numbers: Stim:, 1, User:, 1, 0.4805
+letter:, A, 321.4454, 1, numbers: Stim:, -1, User:, -1, 0.8904
+letter:, K, 330.9783, 1, numbers: Stim:, 1, User:, -1, 0.4845
+letter:, K, 340.5114, -1, numbers: Stim:, -1, User:, -1, 0.8510
+letter:, A, 350.0443, 1, numbers: Stim:, -1, User:, 1, 0.5050
+letter:, K, 359.5773, -1, numbers: Stim:, 1, User:, -1, 0.9506
+letter:, K, 369.1269, 1, numbers: Stim:, 1, User:, 1, 0.8609
+letter:, A, 378.6598, -1, numbers: Stim:, -1, User:, -1, 0.8316
+letter:, K, 388.1944, -1, numbers: Stim:, 1, User:, 1, 0.7538
