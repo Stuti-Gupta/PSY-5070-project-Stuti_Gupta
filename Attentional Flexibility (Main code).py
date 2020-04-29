@@ -310,8 +310,8 @@ def RunTrial(position = (a_pos,0)):
         else:                               #for wrong key press, record none
             response_entry += "User:, none, "
         response_entry += f"{ptbKeys[0].rt:.4f}"
-    else:                                   #for no response, rt has been assigned as negative
-        response_entry += "User:, none, -1"
+    else:                                   #for no response, rt has been assigned as zero
+        response_entry += "User:, none, 0"
     
     #-------------------------documenting the characteristics of the letter-------------------------
     
