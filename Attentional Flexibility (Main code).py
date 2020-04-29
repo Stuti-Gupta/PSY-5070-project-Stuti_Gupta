@@ -5,7 +5,7 @@ import numpy
 
 import random
 
-import sequence
+import sequence         #importing the supplementary code
 
 window = None           #defining the screen on which stimulus will occur
 base_circle = None      #defining a circle
@@ -194,7 +194,7 @@ def Initialize():
     
     #----------------csv file opened and trails are appended each time--------------------------
     
-    log_file = open('D:/Documents/UIowa/Programming for Psychologists/Project/results.csv', 'a')
+    log_file = open('D:/Documents/UIowa/Programming-for-Psychologists/Project/results.csv', 'a')
 
 
 #---------------------------------------showing the instructions for the experiment----------------------------------------------
@@ -298,27 +298,27 @@ def RunTrial(position = (a_pos,0)):
     
     #documenting the stimulus presented
     if numtype_idx == 0:            #zero means odd, so odd is documented
-        response_entry += "Stim:, odd, "
+        response_entry += "Stim:, 1, "
     elif numtype_idx == 1:          #one means even, so even is documented
-        response_entry += "Stim:, even, "
+        response_entry += "Stim:, -1, "
     
     if ptbKeys != []:                       #when a key is pressed
-        if ptbKeys[0].name == 'e':          #'e' is pressed on the keyboard, record even
-            response_entry += "User:, even, "
-        elif ptbKeys[0].name == 'o':        #'o' is pressed on the keyboard, record odd
-            response_entry += "User:, odd, "
-        else:                               #for wrong key press, record none
-            response_entry += "User:, none, "
+        if ptbKeys[0].name == 'e':          #'e' is pressed on the keyboard, record -1
+            response_entry += "User:, -1, "
+        elif ptbKeys[0].name == 'o':        #'o' is pressed on the keyboard, record 1
+            response_entry += "User:, 1, "
+        else:                               #for wrong key press, record 0
+            response_entry += "User:, 0, "
         response_entry += f"{ptbKeys[0].rt:.4f}"
     else:                                   #for no response, rt has been assigned as zero
-        response_entry += "User:, none, 0"
+        response_entry += "User:, 0, 0"
     
     #-------------------------documenting the characteristics of the letter-------------------------
     
     if a_pos == -1.5:   #document left
-        side = "left"
+        side = "-1"
     elif a_pos == 1.5:  #document right
-        side = "right"
+        side = "1"
     
     #first part of string is the letter, second is rt, third is side of the circle the letter was presented
     letter_entry = "letter:, " + char_l + ", " + f"{letter_onset:.4f}, " + str(side)
